@@ -2,6 +2,9 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background-color:rgb(15,15,15);
+  color: white;
+  font-family: roboto;
 }
 
 
@@ -14,9 +17,10 @@
   background-color: rgb(15,15,15);
   border-style: solid;
   border-bottom: 4px;
-  border-color: black;
+  border-color: rgb(15,15,15);
   border-width: 10px;
 }
+
 
 .hero {
   height: 150px;
@@ -28,13 +32,18 @@
   position: relative;
   text-align: center;
   color: white;
+  border-bottom: 1px;
+  border-bottom-style:solid;
+  border-bottom-color: rgb(95, 94, 94);
+  border-bottom-width: 1px;
+
   }
 
 
 .opening-text {
   font-family: roboto, arial;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -42,11 +51,11 @@
 }
 
 .my-name {
+  font-family: Merienda;
   font-size: 40px;
-  border: 4px; 
-  border-color: rgb(75, 72, 72);
-  border-style:groove;
-  border-radius: 30px;
+  border-bottom: 4px;
+  border-bottom-color: rgb(75, 72, 72);
+  border-bottom-style:initial;
   padding-bottom: 0;
 }
 
@@ -58,12 +67,72 @@
   align-items: center;
 }
 
-.about {
-  padding-right: 4px;
+.me {
+  width: 200px;
+  border-radius: 100px;
+  margin-left: 0px;
+}
+
+.about-me-section {
+  display:flex;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+.top-left-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  text-align: center;
+}
+.top-right-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  justify-content: flex-end;
+}
+.li {
+  flex: 1;
+}
+
+.me {
+  width: 200px;
+  border-radius: 100px;
+}
+
+/*This is what I did before that ruined the whole format, i'm noting this now so that I don't
+repeat mymistakes:
+
+.about-me-section {
+display: flex;
+}
+
+.top-left-column {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+
+}
+
+
+.top-right-column {
+  padding-right: 10px;
+  font-size: 20px;
+ display: flex;
+  justify-content: end;*/
+
+
+#about-first-line {
+  padding-bottom: ;
+
 }
 
 .work {
-  padding-right: 4px;
+ 
 }
 
 .banner {
