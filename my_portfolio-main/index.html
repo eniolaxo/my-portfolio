@@ -1,34 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Eniola's Portfolio</title>
-    <link rel="stylesheet" href="practice-portfolio-css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body> 
-  <header>
-    <h1>Eniola Adebayo</h1>
+  <header class="header">
+    <h1 class="my-name">Eniola Adebayo</h1>
+    <!--These will be linked to the bottom of my portfolio page when clicked on-->
+  <div class="right-side-header">
+    <a class="about" href="#About">About Me &#183;</a>
+    <p class=work>My Work &#183;</p>
+    <p class="contact">Contact Me</p>
+     </div>
   </header>
 
-  <!--These will be linked to the bottom of my portfolio page when clicked on-->
-  <div>
- <p>About Me</p>
- <p>My Work</p>
- <p>Contact Me</p>
-  </div>
 
    <!-- insert hero banner -->
-   <section class="hero-banner">
-    <div>
-      <h2>Welcome to my portfolio!</h2>
+   <!-- <section class="hero-banner">
+    <img class="banner" src="images/hero-banner-5.gif">
+    
     </div>
-  </section>
+  </section> -->
+
+  <figure class="hero">
+    <h2 class="opening-text">Welcome to my portfolio!
+    </h2>
+  </figure>
+
+
 
   <div class="about-me-section">
-  <h2 class="top-left-column">About Me</h2>
+  <h2 class="top-left-column" id="About">About Me</h2>
   <img src="image-of-me">
 <div class="top-right-column">
   <p>
