@@ -131,11 +131,17 @@
     background-color: blue;
 }
 
+main {
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .middle-right-column {
   display: flex;
   flex-direction: column;
   justify-items: flex-end;
-  margin-left: 400px;
+  /*margin-left: 400px;*/
 }
 .middle-right-row {
   display: flex;
@@ -158,7 +164,7 @@ border-color: black;
 .middle-left-column {
   display: flex;
   flex-direction: row;
-  margin-left: 100px;
+  /*margin-left: 100px;*/
 }
 
 .middle-right-bottom-column {
@@ -167,26 +173,7 @@ border-color: black;
 
 
 
-/*This is what I did before that ruined the whole format, i'm noting this now so that I don't
-repeat mymistakes:
 
-.about-me-section {
-display: flex;
-}
-
-.top-left-column {
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-
-}
-
-
-.top-right-column {
-  padding-right: 10px;
-  font-size: 20px;
- display: flex;
-  justify-content: end;*/
 
 
 
