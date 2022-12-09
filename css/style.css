@@ -145,22 +145,37 @@ main {
 }
 .middle-right-row {
   display: flex;
-  flex-direction: row;
 }
 
-.thumbnail {
-  width: 200px;
-  height: 154px;
+.thumbnail-1, .thumbnail-2, .thumbnail-3, .thumbnail-4, .thumbnail-5 {
+  width: 250px;
+  height: 250px;
+}
+
+.thumbnail-1, .thumbnail-2 {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.thumbnail-3, .thumbnail-4 {
+  margin-right: 20px;
 }
 
 .my-work-section {
-display: flex;
+/*display: flex;
 flex-direction: row;
 justify-content:end;
 border: 5px;
 border-style: solid;
-border-color: black;
+border-color: black; */
+border: 5px;
+border-style: solid;
+border-color: white;
+display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  flex-direction: column;
 }
+
 
 /*.middle-left-column {
   display: flex;
@@ -169,7 +184,11 @@ border-color: black;
 }*/
 
 .middle-right-bottom-column {
-  display: flex; flex-direction: row;
+  display: flex;
+}
+
+p {
+
 }
 
 

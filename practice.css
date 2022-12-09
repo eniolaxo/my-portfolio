@@ -1,0 +1,20 @@
+.my-work-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 0px;
+}
+
+.middle-right-row {
+ display: flex;
+}
+
+.middle-right-bottom-column {
+ display: flex;
+}
+
+.thumbnail {
+  width: 250px;
+  height: 250px;
+}
