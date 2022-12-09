@@ -1,20 +1,80 @@
-.my-work-section {
-  display: flex;
+/*made another css page to practice making grid! will delete after*/
+
+.work__items{
+  display: grid;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-right: 0px;
+  justify-content: start;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 240px);
 }
 
-.middle-right-row {
- display: flex;
+.work__item{
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  grid-column: span 1; 
+  grid-row: span 1;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
-.middle-right-bottom-column {
- display: flex;
+.work__content{
+  padding: 1rem 1rem 1rem 2rem;
+  width: 100%;
+  max-width: 320px;
+  background-color: var(--black-100);
+  color: var(--white-100);
 }
 
-.thumbnail {
-  width: 250px;
-  height: 250px;
+.work__item-title{
+  font-size: 2rem;
+  padding-bottom: .5rem;
+  background-color: black;
+  color: white;
+}
+
+.work__link{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0%);
+  transition: .5s ease;
+  z-index: 2;
+}
+
+.work__link:hover{
+  background: rgba(0, 0, 0, 50%);
+}
+
+
+.work__item.youtube{
+  background-image: url("images/project-2-thumbnail.png");
+}
+
+.work__item.horiseon{
+  background-image: url("images/project-3-thumbnail.png");
+}
+
+.work__item.prework{
+  background-image: url("images/project-1-thumbnail.png")
+}
+
+.work__item.empty{
+  background-image: url("images/hero-banner-2.jpg");
+}
+
+
+.work__item-text {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 100px;
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  position:absolute
+  end: 0px;
 }
