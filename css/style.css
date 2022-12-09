@@ -73,10 +73,14 @@ header {
  margin-left: 55px;
 }
 
+.about-section {
+margin-left: 50px;
+margin-bottom: 10px;
+}
 
 .about-me-section {
   display:flex;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   margin-top: 10px;
 }
 
@@ -90,7 +94,7 @@ header {
   border-right: 2px;
   border-right-style: double;
   border-right-color: rgb(95, 94, 94);
-  padding-right: 150px;
+  padding-right: 96px;
   margin-top: 15px;
 }
 .top-right-column {
@@ -179,6 +183,24 @@ display: flex;
   display: flex;
 } */
 
+ .section__right {
+  width: 800px;
+  padding-left: 2rem;
+  border-left: 2px solid var(--white-100);
+  position: relative;
+  left: 300px;
+  border-left: 2px double rgb(95, 94, 94);
+  margin-bottom: 100px;
+
+} 
+
+.work__title.section__title {
+text-align: start;
+position: relative;
+top: 200px;
+left: 83px;
+}
+
 .work__items {
   display: grid;
   align-items: center;
@@ -230,19 +252,19 @@ display: flex;
 
 
 .work__item.youtube {
- background-image: url("images/project-2-thumbnail.png");
+ background-image: url(../images/project-2-thumbnail.png);
 }
 
 .work__item.horiseon {
-  background-image: url("images/project-3-thumbnail.png");
+  background-image: url(../images/project-3-thumbnail.png);
 }
 
 .work__item.prework {
-  background-image: url("images/project-1-thumbnail.png");
+  background-image: url(../images/project-1-thumbnail.png);
 }
 
 .work__item.empty {
-  background-image: url("images/hero-banner-4");
+  background-image: url(../images/hero-banner-4.gif);
 }
 
 
