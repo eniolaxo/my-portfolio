@@ -12,8 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet">
-    
+      rel="stylesheet">  
 </head>
 
 <body> 
@@ -23,8 +22,8 @@
     <!--These will be linked to the bottom of my portfolio page when clicked on-->
   <div class="right-side-header">
     <a class="about" href="#About">About Me &#183;</a>
-    <p class=work>My Work &#183;</p>
-    <p class="contact">Contact Me</p>
+    <a class="work" href="#Work">My Work &#183;</p>
+    <a class="contact" href="#Contact">Contact Me</p>
      </div>
   </header>
 
@@ -40,8 +39,11 @@
     <main> 
   <div class="about-me-section">
     <div class="top-left-column">
-      <h2 class="about-section">About me</h2>
-    <img class="me" src="images/my-picture.JPG">
+      <h2 class="about-section">
+        <a href="#About">About me
+          </a>
+        </h2>
+    <img class="me" src="images/my-picture.JPG" alt="an image of me">
   </div>
   <div class="top-right-column">
     <li id="about-first-line">
@@ -51,71 +53,31 @@
     However, I am currently enrolled on a front-end bootcamp course and I am excited to keep learning more.
    </li> 
    <li id="about-third-line">
-    As I progress, I will be updating this portfolio with more deployed content!
+    As I progress, I will be updating this portfolio with more deployed content! Stay tuned 💗
    </li>
-   <p>Stay tuned 💗</p>
   </div>
   </div> 
      
   
   <!-- My Work section code -->
 
-<!-- replacing this section with improved code!:
-  <h2>My Work</h2>
-<div class="my-work-section"> 
-<div class="middle-right-column"> 
-
-  <div class="middle-right-row">
-    <div class="work-1">
-      <img class="thumbnail" src="images/project-1-thumbnail.png">
-    </div>
-   <div class="work-2">
-      <img class="thumbnail" src="images/project-2-thumbnail.png">
-    </div>
-    </div>
-  <div class="middle-right-bottom-column">
-    <div class="work-3">
-      <img class="thumbnail" src="images/project-3-thumbnail.png">
-    </div>
-    <div class="work-4">
-      <img class="thumbnail" src="images/project-3-thumbnail.png">
-      <div class="work-5">
-        <img class="thumbnail" src="images/project-3-thumbnail.png">
-  </div>
-</div>
-</div>
-</div> -->
-
- <!-- <h2 class="work-title">My Work</h2>
-  <div class="my-work-section">
-    <div class="middle-right-row">
-      <img class="thumbnail-1" src="images/project-1-thumbnail.png"/>
-      <img class="thumbnail-2" src="images/project-2-thumbnail.png"/>
-    </div>
-   
-    <div class="middle-right-bottom-column">
-      <img class="thumbnail-3" src="images/project-3-thumbnail.png"/>
-      <img class="thumbnail-4" src="images/hero-banner-2.jpg"/>
-     <img class="thumbnail-5" src="images/hero-banner-2.jpg"/> 
-    </div>
-   </div> -->
-
    <section class="work section" id="work">
         
     <aside class="work__title-box section__left">
-      <h2 class="work__title section__title">My Work</h2>
+      <h2 class="work__title section__title">
+        <a href="#Work">
+          My Work
+          </a>
+        </h2>
     </aside>
     
     <div class="work__items section__right">
-
-
-
       <div class="work__item youtube">
         <div class="work__content">
           <h3 class="work__item-title">Youtube Webpage Project</h3>
           <p class="work__item-text">Through SuperSimpleDev's tutorial, I built on my CSS and HTML skills.</p>
         </div>
-        <a class="work__link" href="https://google.co.uk"></a>
+        <a class="work__link" href="https://google.co.uk" target="_blank"></a>
       </div>
 
       <div class="work__item horiseon">
@@ -123,14 +85,14 @@
           <h3 class="work__item-title">Horiseon Code Refactor Project</h3>
           <p class="work__item-text">In this project, I learned more on how to organise and refactor code.</p>
         </div>
-        <a class="work__link" href="https://eniolaxo.github.io/horiseon-code-refactor/"></a>
+        <a class="work__link" href="https://eniolaxo.github.io/horiseon-code-refactor/" target="_blank"></a>
       </div>
       <div class="work__item prework">
         <div class="work__content">
           <h3 class="work__item-title">Prework Project</h3>
           <p class="work__item-text">My first-ever project where I got into the basics of HTML.</p>
         </div>
-        <a class="work__link" href="https://eniolaxo.github.io/prework-stuff/"></a>
+        <a class="work__link" href="https://eniolaxo.github.io/prework-stuff/" target="_blank"></a>
       </div>
 
       <div class="work__item empty">
@@ -138,7 +100,7 @@
           <h3 class="work__item-title">Empty (for now)</h3>
           <p class="work__item-text">When I deploy new projects, I'll place them here!</p>
         </div>
-        <a class="work__link" href="https://www.google.co.uk"></a>
+        <a class="work__link" href="https://www.google.co.uk" target="_blank"></a>
       </div>
     </div>
     
@@ -149,11 +111,20 @@
 
 <footer>
 <div class="contact-me-section">
-<h3 class="bottom-left-column">Contact Me</h2>
-<p class="right-column">contact me icons appear here in a nested flexbox format</p>
+<h3 class="contact-me-text">Contact Me</h2>
+<div class="contact__content">
+<a href="mailto:eniolaadebayo9@yahoo.com" target="_blank">
+  <img src="images/email-icon.png" alt="email icon">
+</a>
+<a href="https://discordapp.com/users/Eni#3328" target="_blank">
+  <img src="images/discord-icon.png" alt="discord icon">
+</a>
+<a href="https://github.com/eniolaxo" target="_blank">
+  <img src="images/github-icon.png" alt="github icon">
+</a>
+</div>
 </div>
 </footer>
-
 
 
 </body>

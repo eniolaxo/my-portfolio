@@ -56,6 +56,7 @@ header {
   border-bottom-color: rgb(75, 72, 72);
   border-bottom-style:initial;
   padding-bottom: 0;
+  color: rgb(171, 17, 17);
 }
 
 .right-side-header {
@@ -107,81 +108,8 @@ margin-bottom: 10px;
 }
 
 
- /*.work-1 {
-  flex: 1;
-  background-color: blue;
-}
-.work-2 {
-  flex: 1;
-  background-color: pink;
-}
 
-.work-3 {
-  flex: 1;
-    background-color: rgb(132, 38, 54);
-}
-
-.work-4 {
-  flex: 1;
-  background-color: orange;
-} */
-
-
-main {
-  max-width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* .middle-right-column {
-  display: flex;
-  flex-direction: column;
-  /*justify-items: flex-end;*/
-  /*margin-left: 400px;
-}
-.middle-right-row {
-  display: flex;
-}
-
-.thumbnail-1, .thumbnail-2, .thumbnail-3, .thumbnail-4, .thumbnail-5 {
-  width: 250px;
-  height: 250px;
-}
-
-.thumbnail-1, .thumbnail-2 {
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-.thumbnail-3, .thumbnail-4 {
-  margin-right: 20px;
-} */
-
-/* .my-work-section {
-display: flex;
-flex-direction: row;
-justify-content:end;
-border: 5px;
-border-style: solid;
-border-color: black;
-border: 5px;
-border-style: solid;
-border-color: white;
-display: flex;
-  align-items:flex-start;
-  justify-content: center;
-  flex-direction: column;
-} */
-
-
-/*.middle-left-column {
-  display: flex;
-  flex-direction: row;
-  /*margin-left: 100px;
-}*/
-
-/*.middle-right-bottom-column {
-  display: flex;
-} */
+/* Work Section */
 
  .section__right {
   width: 800px;
@@ -190,7 +118,7 @@ display: flex;
   position: relative;
   left: 300px;
   border-left: 2px double rgb(95, 94, 94);
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 
 } 
 
@@ -252,7 +180,7 @@ left: 83px;
 
 
 .work__item.youtube {
- background-image: url(../images/project-2-thumbnail.png);
+  background-image: url(../images/project-2-thumbnail.png);
 }
 
 .work__item.horiseon {
@@ -281,9 +209,26 @@ left: 83px;
 }
 
 
+/*contact section*/
 
+footer {
+  border-top: 2px double grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+align-content: flex-end;
+}
 
+img {
+  width: 50px;
+}
 
+.contact-me-text {
+font-size: 22px;
+padding-left: 10px;
+}
 
-
-
+.contact__content {
+  display: flex;
+  flex-direction: row;
+}
