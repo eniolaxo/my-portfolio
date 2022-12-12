@@ -211,7 +211,7 @@ left: 83px;
 /*contact section*/
 
 footer {
-  border-top: 2px double grey;
+  
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -223,8 +223,11 @@ img {
 }
 
 .contact-me-text {
-font-size: 22px;
-padding-left: 10px;
+position:relative;
+right: 360px;
+font-size: 24px;
+padding-right: 83px;
+border-right: 2px double grey;
 }
 
 .contact__content {
@@ -319,6 +322,21 @@ display: grid;
   left: 50px;
   border-left: 2px double rgb(95, 94, 94);
   margin-bottom: 0px;
+}
+
+.contact-me-text {
+  position: relative;
+    right: 74px;
+    font-size: 30px;
+    writing-mode: vertical-rl;
+    padding-right: 10px;
+    border-right: 2px double grey;
+    margin-right:
+}
+
+footer {
+border-top: none;
+margin-top: 40px;
 }
 
 }
