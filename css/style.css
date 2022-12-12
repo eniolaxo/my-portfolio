@@ -224,6 +224,7 @@ img {
 
 .contact-me-text {
   font-size: 24px;
+  font-weight: bold;
   }
   
 
@@ -323,20 +324,21 @@ display: grid;
 }
 
 .work__item.youtube {
-  background-image: url(../images/project-2-thumbnail.png);
+  background-image: none;
 }
 
 .work__item.horiseon {
-  background-image: url(../images/project-3-thumbnail.png);
+  background-image: none;
+  width:fit-content;
 }
 
 .work__item.prework {
-  background-image: url(../images/project-1-thumbnail.png);
+  background-image: none;
   background-size: 100%;
 }
 
 .work__item.empty {
-  background-image: url(../images/hero-banner-4.gif);
+  background-image: none;
   background-size: 100%;
 }
   
