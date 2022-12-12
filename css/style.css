@@ -1,5 +1,4 @@
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
   background-color:rgb(15,15,15);
@@ -129,7 +128,7 @@ top: 200px;
 left: 83px;
 }
 
-.work__items {
+.work__items.section__right {
   display: grid;
   align-items: center;
   justify-content: start;
@@ -231,4 +230,95 @@ padding-left: 10px;
 .contact__content {
   display: flex;
   flex-direction: row;
+}
+
+/* Media Query Section 
+
+****************************************************** */
+
+/* styles for smaller/mobile-tablet screens */
+
+@media (max-width: 769px) {
+
+header {
+  font-family: Roboto, Arial;
+  display: flex;
+  flex-direction: column;
+}
+
+.opening-text {
+  font-size: 33px;
+}
+
+.about-me-section{
+  display:flex;
+  flex-direction: column;
+  border-bottom: 2px dashed grey;
+}
+
+.top-left-column {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  text-align:start; 
+  padding-right: 0;
+ border: none;
+  
+}
+
+.me {
+  width: 150px;
+  height: 150px; 
+  border-radius: 20px;
+}
+
+.about1 {
+font-size: 30px;
+writing-mode: vertical-rl;
+}
+
+.top-right-column {
+  display: flex;
+  flex-direction: column;
+  text-align:start;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+
+.work.section{ 
+display: flex;
+flex-direction: row;
+}
+
+.work__title.section__title {
+  position: relative;
+  left: 34px;
+  font-size: 30px;
+  writing-mode: vertical-rl;
+  width: 20px;
+  display:inline-block;
+}
+
+
+.work__items.section__right {
+margin: 0px;
+padding: 0px; 
+display: grid;
+  align-items: center;
+  justify-content:left;
+  grid-template-columns:none;
+  grid-template-rows:auto 
+}
+
+.section__right {
+  width: 10%;
+  padding-left: 0px;
+  border: none;
+  position: relative;
+  left: 50px;
+  border-left: 2px double rgb(95, 94, 94);
+  margin-bottom: 0px;
+}
+
 }
